@@ -54,43 +54,20 @@
 						</header>
 						<hr> </hr>
 						<div class="scrollText">
-							<p>Work in progress... <span id="dots"></span><span id="more"> <br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
-								.<br /><br />
+							<p>Work in progress... <span id="dots"></span><span id="more">
+								<script>
+									for (let i = 0; i < 40; i++) {
+										var parent = document.getElementById("more")
+										var text = document.createElement('p')
+										text.innerHTML = "."
+										var newline = document.createElement('br')
+										var newline2 = document.createElement('br')
+										newline.appendChild(newline2)
+										text.appendChild(newline)
+										text.appendChild(newline)
+										parent.appendChild(text)
+									}
+								</script>
 								still a long way to go before it makes its way up here.</span></p>
 							</div>
 						<ul class="actions">
