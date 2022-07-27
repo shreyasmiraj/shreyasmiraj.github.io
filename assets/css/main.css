@@ -117,7 +117,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #bfa949;
 		text-decoration: none;
 	}
 
@@ -1847,7 +1847,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: #bfa949;
 		}
 
 	select {
@@ -1952,7 +1952,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49bf9d;
+			border-color: #bfa949;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2644,7 +2644,7 @@ input, select, textarea {
 			margin: 0;
 		}
 		.info {
-			display: none;
+			display: inline;
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.0em;
 			line-height: 1.75em;

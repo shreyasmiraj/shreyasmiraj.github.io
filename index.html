@@ -20,6 +20,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel = "icon" href ="images/logo.jpg" type = "image/x-icon">
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/academicons-1.9.2/css/academicons.css"/>
 	</head>
 	<body class="is-preload">
 
@@ -28,8 +29,8 @@
 				<div class="inner">
 					<a href="#" class="image avatar"><img onmouseover = "reveal_spoiler()" onmouseleave="hide_spoiler()" src="images/avatar.jpg" alt="" /></a>
 					<a href="#"><h1 onmouseover = "reveal_spoiler()" onmouseleave="hide_spoiler()"><strong>Shreyas Miraj</strong><br /></h1></a>
-					<p class="info">Neuroscience masters student <br /> at National Brain Research Centre<br /></p>
-					<script>
+					<p class="info">Neuroscience master's student <br /> at National Brain Research Centre<br /></p>
+					<!-- <script>
 						function reveal_spoiler() {
 							var spoiler = document.getElementsByClassName("info");
 							spoiler = spoiler[0]
@@ -40,7 +41,7 @@
 							spoiler = spoiler[0]
 							spoiler.style.display = "none"
 						}
-					</script>
+					</script> -->
 				</div>
 			</header>
 
@@ -71,10 +72,10 @@
 								still a long way to go before it makes its way up here.</span></p>
 							</div>
 						<ul class="actions">
-							<li><button onclick="myFunction()" class="button" id="readMoreButton">Read More</a></li>
+							<li><button onclick="readMoreToggle()" class="button" id="readMoreButton">Read More</a></li>
 						</ul>
 						<script>
-							function myFunction() {
+							function readMoreToggle() {
 							var dots = document.getElementById("dots");
 							var moreText = document.getElementById("more");
 							var btnText = document.getElementById("readMoreButton");
@@ -501,9 +502,12 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				<div class="inner">
 					<ul class="icons">
 						<li><a href="https://twitter.com/ShreyasMiraj" target="_blank" rel="noopener noreferrer" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://github.com/shreyasmiraj" target="_blank" rel="noopener noreferrer" class="icon brands fa-github"><span class="label">Github</span></a></li>
 						<li><a href="mailto: shreyasmiraj8@gmail.com" target="_blank" rel="noopener noreferrer" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://github.com/shreyasmiraj" target="_blank" rel="noopener noreferrer" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<!-- <li><a href="https://osf.io/cn2gq/" target="_blank" rel="noopener noreferrer"><i class="ai ai-osf ai-1d5x"></i></a></li> 
+						-->
 						<li><a href="https://www.instagram.com/shreyas_miraj/" target="_blank" rel="noopener noreferrer" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+
 					</ul>
 					<ul class="icons"></ul>
 					<ul class="icons"></ul>
