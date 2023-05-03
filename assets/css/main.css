@@ -2599,7 +2599,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #000000;
 		background-attachment: scroll,								scroll;
-		background-image: url("../../images/bg.png");
+		background-image: url("https://ik.imagekit.io/shreyasmiraj/bg.png?updatedAt=1683099515299");
 		background-position: top right,							top right;
 		background-repeat: repeat,								no-repeat;
 		background-size: cover;
@@ -3103,7 +3103,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #000000;
-				background-image: url("images/overlay.png"), url("../../images/bg.png");
+				background-image: url("images/overlay.png"), url("https://ik.imagekit.io/shreyasmiraj/bg.png?updatedAt=1683099515299");
 				background-position: top right,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
